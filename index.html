@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Reto #4 - “I like turtles”
+    Escribe un programa que pida al usuario ingrese 
+    su animal favorito, si coloca ‘Tortuga’, 
+    ‘tortuga’, ‘TORTUGA’ o cualquier otra variante
+     de la palabra entonces mostrar en pantalla 
+     “También me gustan las tortugas”. En caso 
+     contrario mostrar el mensaje “Ese animal es 
+     genial, pero prefiero las tortugas”. -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        let animal=prompt('Cual es tu animal Favorito');
+        var mensaje=`Ese animal es genial
+pero prefiero las tortugas`;
+        if (animal.toUpperCase()==='TORTUGA') { 
+            //hago la comparacion a mayusculas
+            //para estandarizar
+            alert('También me gustan las tortugas');
+        } else {
+            alert (mensaje);
+        }
+
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
